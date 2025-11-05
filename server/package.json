@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "disposable-email-domains": "^1.0.62",
+    "dns": "^0.2.2",
+    "dotenv": "^17.2.3",
+    "duckduckgo-search": "^1.0.7",
+    "express": "^5.1.0",
+    "google-it": "^1.6.4",
+    "smtp-client": "^0.4.0"
+  }
+}
