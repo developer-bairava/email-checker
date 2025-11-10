@@ -1,0 +1,110 @@
+/* 🌈 App.css — clean, modern design */
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00e6b8;
+  letter-spacing: 1px;
+}
+
+.container {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  width: 450px;
+}
+
+/* 🔍 SearchBar styling */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  background: #f2f2f2;
+}
+
+.search-form button {
+  background: #00e6b8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-form button:hover {
+  background: #0fffc3;
+}
+
+/* 📊 ResultBox styling */
+.result-box {
+  background: #ffffff15;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
+.result-line {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.result-line strong {
+  width: 130px;
+  display: inline-block;
+}
+
+.status-ok {
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.status-fail {
+  color: #ff4c4c;
+  font-weight: bold;
+}
+
+.result-links {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.result-links li {
+  margin: 4px 0;
+}
+
+.result-links a {
+  color: #00e6b8;
+  text-decoration: none;
+}
+
+.result-links a:hover {
+  text-decoration: underline;
+}
